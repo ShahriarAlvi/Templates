@@ -34,7 +34,9 @@ ll searchLowerBound(ll arr[], ll key, ll n)
             end = mid - 1;
     }
 
-    return begin;                               // the index with the value not less than X
+    return begin;                               /* the index with the value not less than X
+                                                the number that will be inserted
+                                                */
 }
 
 ll searchUpperBound(ll arr[], ll key, ll n)
@@ -62,7 +64,9 @@ ll searchUpperBound(ll arr[], ll key, ll n)
             end = mid - 1;
     }
 
-    return begin;                              // the index with the value not greater than X
+    return begin;                               /* the index with the value not greater than X
+                                                the number that will be inserted
+                                                */
 }
 
 int main()
